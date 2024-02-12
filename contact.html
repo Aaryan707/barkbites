@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+</head>
+<body id="top">
+<header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">Bark Bites</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#shop" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Collections</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Blogs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+<li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Log In</a>
+          </li>
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-label="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn user" aria-label="User">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn" aria-label="cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+<section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <span class="span">High Quality</span> Pet Food
+          </h1>
+<table border=2>
+
+<tr><td><h3><font color=white>Fill The Information:</font></h3></td></tr><tr><td>
+	    <form action=contact_page.php method=post>
+<table cellspacing=20 cellpadding=10 border=0>
+<tr><td>
+Enter Name:</td><td><input type=text name=t1 size=40></td></tr>
+<tr><td>
+Enter Contact No.:</td><td><input type=text name=t2 size=40></td></tr>
+<tr><td>
+Enter Email:</td><td><input type=text name=t3 size=40></td></tr>
+<tr><td><input type=submit value="Submit"></td><td><input type=reset value="Reset"></td></tr></table>
+</td></tr>
+</table>      
+
+        </div>
+      </section>
+
+
